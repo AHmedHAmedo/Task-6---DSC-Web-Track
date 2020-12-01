@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: auto;
+}
+/* Start Header */
+
+.empty{
+    height: 80px;
+    width: 100%;
+}
+
+/* End Header */
+
+/* Start About Us */
+.about{
+    height: 425px;
+    background-color: whitesmoke;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.intro , .imgsforbackground{
+    width: 50%;
+    float: left;
+}
+
+
+
+
+.imgsforbackground{
+    background-image: url("img/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 425px;
+    width: 315px;
+    text-align: center;
+    padding-top: 330px;
+    margin-left: 100px;
+}
+
+.figure1 , .figure2 , .figure3{
+    border: 2px solid white;
+}
+
+.figure1{
+    margin-right: 8px;
+}
+
+.figure2{
+    margin-right: 8px;
+}
+
+.intro h1{
+    color: #DC143C;
+    padding-top: 80px;
+}
+
+.intro p{
+    line-height: 2em;
+    font-size: 20px;
+    color: #555;
+}
+
+/* End About Us */
+
+.middleheader h1{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+
+/* Start The Boxies */
+
+.threeboxes .boxi{
+    width: 26%;
+    height: 300px;
+    float: left;
+    background-color: whitesmoke;
+    margin-right: 29px;
+    padding-top: 20px;
+    border-radius: 3px;
+}
+
+.threeboxes .boxi p{
+    line-height: 1.5em;
+    padding-bottom: 10px;
+}
+
+.clr{
+    clear: both;
+}
+
+.threeboxes .boxi .smallpic{
+    float: left;
+    padding-top: 10px;
+}
+
+.threeboxes .boxi .picperson{
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+
+.threeboxes{
+    padding-left: 315px;
+    padding-right: 150px;
+}
+
+#figureforpost{
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.threeboxes .boxi .paraone{
+    font-size: 1.1em;
+    text-align: justify;
+    margin-left: 30px;
+}
+
+.threeboxes .boxi .paratwo{
+    font-size: 16px;
+    margin-left: 20px;
+    color: #555;
+}
+
+
+/* End The Boxies */
